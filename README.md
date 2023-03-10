@@ -15,3 +15,4 @@ pip install pygame
 python n-queen.py {number of queen}
 
 ```
+and press **space** to start the algorithm
