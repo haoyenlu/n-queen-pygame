@@ -6,14 +6,9 @@ Provide visualization with pygame
 ![n-queen-6X6](https://user-images.githubusercontent.com/74141558/224475819-32bdf82b-0065-4bad-9330-b92dfd0320b1.gif)
 
 
-## Import
-```
-pip install pygame
-```
-
 ## Run
 ```
+pip install pygame
 python n-queen.py {number of queen}
-
 ```
 and press **space** to start the algorithm
