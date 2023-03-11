@@ -51,7 +51,7 @@ running = True
 clock = pygame.time.Clock()
 
 while running:
-    clock.tick(2)
+    clock.tick(3)
 
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
@@ -76,9 +76,8 @@ while running:
         
 
 
-
+    screen.fill((0,0,0))
     screen.blit(board.surface,(board_offset))
-    board.update()
     pygame.display.update()
 
 

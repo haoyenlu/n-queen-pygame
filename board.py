@@ -28,6 +28,7 @@ class Board:
         q = Queen(self.block_size)
         q.place(self.board_rect[col][row].center)
         self.queen.append(q)
+        q.draw(self.surface)
 
     def remove_queen(self,row,col):
         self.queen[:] = [q for q in self.queen if q.rect.center != self.board_rect[col][row].center]
@@ -35,10 +36,6 @@ class Board:
         pygame.draw.rect(self.surface,color,self.board_rect[col][row],0)
 
 
-    
-    def update(self):
-        for q in self.queen:
-            q.draw(self.surface)
 
 
 class Queen:
