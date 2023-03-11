@@ -2,8 +2,8 @@
 Solving n-queen problem using backtracking.
 Provide visualization with pygame
 
-
-![n-queen-new](https://user-images.githubusercontent.com/74141558/224469133-397e6c7b-c843-49c4-b6c5-eeccb9dde85f.gif)
+### 6X6 Board
+![n-queen-6X6](https://user-images.githubusercontent.com/74141558/224475819-32bdf82b-0065-4bad-9330-b92dfd0320b1.gif)
 
 
 ## Import
