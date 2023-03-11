@@ -3,7 +3,7 @@ Solving n-queen problem using backtracking.
 Provide visualization with pygame
 
 
-![n-queen](https://user-images.githubusercontent.com/74141558/224416174-7c435a0b-858b-405d-befe-8c224c9b209a.gif)
+![n-queen-new](https://user-images.githubusercontent.com/74141558/224469133-397e6c7b-c843-49c4-b6c5-eeccb9dde85f.gif)
 
 
 ## Import
