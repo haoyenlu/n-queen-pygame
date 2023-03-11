@@ -51,7 +51,7 @@ running = True
 clock = pygame.time.Clock()
 
 while running:
-    clock.tick(3)
+    clock.tick(2)
 
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
